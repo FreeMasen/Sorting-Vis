@@ -166,7 +166,7 @@ async function main() {
     for (let result of results) {
         assert_sorted(result.sorted, result.name);
         let file_name = `${result.name}.svg`;
-        let img_path = path.join('doc', file_name);
+        let img_path = path.join('docs', file_name);
         images.push({
             file_name,
             sort_name: camel_to_spaced(result.name),
@@ -192,7 +192,7 @@ async function main() {
     }
     html += `</body>
 </html>`;
-    await fs.writeFile(path.join('doc', 'index.html'), html);
+    await fs.writeFile(path.join('docs', 'index.html'), html);
     return 'success!';
 }
 
