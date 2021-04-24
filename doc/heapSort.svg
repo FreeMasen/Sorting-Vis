@@ -1,0 +1,83 @@
+<svg version="1.1"
+    baseProfile="full"
+    xmlns="http://www.w3.org/2000/svg" width="155px" height="70px" viewBox="0 0 100 70">
+    <circle fill="#000" cx="0" cy="35" r="5" />
+    <circle fill="#000" cx="10" cy="35" r="5" />
+    <circle fill="#000" cx="20" cy="35" r="5" />
+    <circle fill="#000" cx="30" cy="35" r="5" />
+    <circle fill="#000" cx="40" cy="35" r="5" />
+    <circle fill="#000" cx="50" cy="35" r="5" />
+    <circle fill="#000" cx="60" cy="35" r="5" />
+    <circle fill="#000" cx="70" cy="35" r="5" />
+    <circle fill="#000" cx="80" cy="35" r="5" />
+    <circle fill="#000" cx="90" cy="35" r="5" />
+    <circle fill="#000" cx="100" cy="35" r="5" />
+    <circle fill="#000" cx="110" cy="35" r="5" />
+    <circle fill="#000" cx="120" cy="35" r="5" />
+    <path stroke-width="0.5" d="M 20 30 Q 35 23.076923076923077 50 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 50 40 Q 35 46.92307692307692 20 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 10 30 Q 20 25.384615384615383 30 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 30 40 Q 20 44.61538461538461 10 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 60 2.3076923076923066 120 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 120 40 Q 60 67.6923076923077 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 5 27.692307692307693 10 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 10 40 Q 5 42.30769230769231 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 10 30 Q 25 23.076923076923077 40 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 40 40 Q 25 46.92307692307692 10 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 40 30 Q 65 18.46153846153846 90 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 90 40 Q 65 51.53846153846154 40 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 55 4.615384615384617 110 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 110 40 Q 55 65.38461538461539 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 5 27.692307692307693 10 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 10 40 Q 5 42.30769230769231 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 10 30 Q 20 25.384615384615383 30 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 30 40 Q 20 44.61538461538461 10 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 50 6.923076923076923 100 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 100 40 Q 50 63.07692307692308 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 10 25.384615384615383 20 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 20 40 Q 10 44.61538461538461 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 20 30 Q 35 23.076923076923077 50 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 50 40 Q 35 46.92307692307692 20 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 45 9.23076923076923 90 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 90 40 Q 45 60.769230769230774 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 10 25.384615384615383 20 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 20 40 Q 10 44.61538461538461 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 40 11.538461538461537 80 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 80 40 Q 40 58.46153846153847 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 5 27.692307692307693 10 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 10 40 Q 5 42.30769230769231 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 10 30 Q 25 23.076923076923077 40 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 40 40 Q 25 46.92307692307692 10 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 35 13.846153846153847 70 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 70 40 Q 35 56.15384615384615 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 5 27.692307692307693 10 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 10 40 Q 5 42.30769230769231 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 10 30 Q 20 25.384615384615383 30 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 30 40 Q 20 44.61538461538461 10 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 30 16.153846153846153 60 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 60 40 Q 30 53.84615384615385 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 5 27.692307692307693 10 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 10 40 Q 5 42.30769230769231 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 10 30 Q 20 25.384615384615383 30 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 30 40 Q 20 44.61538461538461 10 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 25 18.46153846153846 50 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 50 40 Q 25 51.53846153846154 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 10 25.384615384615383 20 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 20 40 Q 10 44.61538461538461 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 20 20.769230769230766 40 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 40 40 Q 20 49.23076923076923 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 5 27.692307692307693 10 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 10 40 Q 5 42.30769230769231 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 10 30 Q 20 25.384615384615383 30 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 30 40 Q 20 44.61538461538461 10 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 15 23.076923076923077 30 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 30 40 Q 15 46.92307692307692 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 10 25.384615384615383 20 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 20 40 Q 10 44.61538461538461 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 10 25.384615384615383 20 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 20 40 Q 10 44.61538461538461 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 5 27.692307692307693 10 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 10 40 Q 5 42.30769230769231 0 40" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 0 30 Q 5 27.692307692307693 10 30" fill="none" stroke="#000" />
+    <path stroke-width="0.5" d="M 10 40 Q 5 42.30769230769231 0 40" fill="none" stroke="#000" />
+</svg>
