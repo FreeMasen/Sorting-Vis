@@ -9,8 +9,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-img {
-    width: 500px;
+img, .image {
+    width: 100%;
 }
 
 body {
