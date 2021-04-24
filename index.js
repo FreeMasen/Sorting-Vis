@@ -178,7 +178,7 @@ async function main() {
     }
     let html = `<html>
     <head>
-        <link type="text/css" rel="stylesheet" href="/style.css" />
+        <link type="text/css" rel="stylesheet" href="./style.css" />
     </head>
     <body>
     <h1>Sorting Visualizations</h1>
@@ -186,7 +186,7 @@ async function main() {
     for (let img of images) {
         html += `<div class="image">
         <h2>${img.sort_name}</h2>
-        <img src="/${img.file_name}" />
+        <img src="./${img.file_name}" />
     </div>
 `;
     }
