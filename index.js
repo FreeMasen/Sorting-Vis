@@ -63,12 +63,14 @@ function shellSort(data) {
     }
 }
 
-const height = 70;
+const height = 50;
 const radius = 5;
+const min_width = radius * 2 * data.length;
 function buildNodes(len) {
     let nodes = [];
     for (let i = 0; i < len; i++) {
-        let x = (radius * 2 * i);
+        let x = (radius * 2 * i)+radius;
+        console.log('x', i, x);
         nodes.push({
             x,
             y_top: ((height/2) - radius) + 0.25,
@@ -83,7 +85,7 @@ function buildNodes(len) {
 function render(movements, nodes) {
     let svg = `<svg version="1.1"
     baseProfile="full"
-    xmlns="http://www.w3.org/2000/svg" width="${(radius*2*13)+25}px" height="${height}px" viewBox="0 0 100 ${height}">\n`
+    xmlns="http://www.w3.org/2000/svg" width="${min_width}px" height="${height}px" viewBox="0 0 ${min_width} ${height}">\n`
     let top = true;
     let dist = 30;
     for (let node of nodes) {
@@ -113,7 +115,7 @@ function render(movements, nodes) {
             start_y = from.y_bot;
             mid_y = from.y_bot + ((Math.abs(move.from - move.to) / 13) * dist);
         }
-        svg += `    <path stroke-linecap="round" stroke-width="0.5" d="M ${start_x} ${start_y} Q ${mid_x} ${mid_y} ${end_x} ${start_y}" fill="none" stroke="#000" />\n`;
+        svg += `    <path stroke-linecap="round" stroke-width="0.25" d="M ${start_x} ${start_y} Q ${mid_x} ${mid_y} ${end_x} ${start_y}" fill="none" stroke="#000" />\n`;
         top = !top;
     }
     return svg + '</svg>'

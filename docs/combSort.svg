@@ -1,55 +1,55 @@
 <svg version="1.1"
     baseProfile="full"
-    xmlns="http://www.w3.org/2000/svg" width="155px" height="70px" viewBox="0 0 100 70">
-    <circle fill="#000" cx="0" cy="35" r="5" />
-    <circle fill="#000" cx="10" cy="35" r="5" />
-    <circle fill="#000" cx="20" cy="35" r="5" />
-    <circle fill="#000" cx="30" cy="35" r="5" />
-    <circle fill="#000" cx="40" cy="35" r="5" />
-    <circle fill="#000" cx="50" cy="35" r="5" />
-    <circle fill="#000" cx="60" cy="35" r="5" />
-    <circle fill="#000" cx="70" cy="35" r="5" />
-    <circle fill="#000" cx="80" cy="35" r="5" />
-    <circle fill="#000" cx="90" cy="35" r="5" />
-    <circle fill="#000" cx="100" cy="35" r="5" />
-    <circle fill="#000" cx="110" cy="35" r="5" />
-    <circle fill="#000" cx="120" cy="35" r="5" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 0 30.25 Q 50 7.173076923076923 100 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 100 39.75 Q 50 62.82692307692308 0 39.75" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 10 30.25 Q 60 7.173076923076923 110 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 110 39.75 Q 60 62.82692307692308 10 39.75" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 20 30.25 Q 70 7.173076923076923 120 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 120 39.75 Q 70 62.82692307692308 20 39.75" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 10 30.25 Q 45 14.096153846153847 80 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 80 39.75 Q 45 55.90384615384615 10 39.75" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 40 30.25 Q 75 14.096153846153847 110 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 110 39.75 Q 75 55.90384615384615 40 39.75" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 50 30.25 Q 85 14.096153846153847 120 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 120 39.75 Q 85 55.90384615384615 50 39.75" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 20 30.25 Q 45 18.71153846153846 70 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 70 39.75 Q 45 51.28846153846154 20 39.75" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 30 30.25 Q 55 18.71153846153846 80 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 80 39.75 Q 55 51.28846153846154 30 39.75" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 40 30.25 Q 65 18.71153846153846 90 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 90 39.75 Q 65 51.28846153846154 40 39.75" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 30 30.25 Q 45 23.326923076923077 60 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 60 39.75 Q 45 46.67307692307692 30 39.75" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 40 30.25 Q 55 23.326923076923077 70 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 70 39.75 Q 55 46.67307692307692 40 39.75" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 50 30.25 Q 60 25.634615384615383 70 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 70 39.75 Q 60 44.36538461538461 50 39.75" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 70 30.25 Q 80 25.634615384615383 90 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 90 39.75 Q 80 44.36538461538461 70 39.75" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 100 30.25 Q 110 25.634615384615383 120 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 120 39.75 Q 110 44.36538461538461 100 39.75" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 0 30.25 Q 5 27.942307692307693 10 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 10 39.75 Q 5 42.05769230769231 0 39.75" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 20 30.25 Q 25 27.942307692307693 30 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 30 39.75 Q 25 42.05769230769231 20 39.75" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 50 30.25 Q 55 27.942307692307693 60 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 60 39.75 Q 55 42.05769230769231 50 39.75" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 80 30.25 Q 85 27.942307692307693 90 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 90 39.75 Q 85 42.05769230769231 80 39.75" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 10 30.25 Q 15 27.942307692307693 20 30.25" fill="none" stroke="#000" />
-    <path stroke-linecap="round" stroke-width="0.5" d="M 20 39.75 Q 15 42.05769230769231 10 39.75" fill="none" stroke="#000" />
+    xmlns="http://www.w3.org/2000/svg" width="130px" height="50px" viewBox="0 0 130 50">
+    <circle fill="#000" cx="5" cy="25" r="5" />
+    <circle fill="#000" cx="15" cy="25" r="5" />
+    <circle fill="#000" cx="25" cy="25" r="5" />
+    <circle fill="#000" cx="35" cy="25" r="5" />
+    <circle fill="#000" cx="45" cy="25" r="5" />
+    <circle fill="#000" cx="55" cy="25" r="5" />
+    <circle fill="#000" cx="65" cy="25" r="5" />
+    <circle fill="#000" cx="75" cy="25" r="5" />
+    <circle fill="#000" cx="85" cy="25" r="5" />
+    <circle fill="#000" cx="95" cy="25" r="5" />
+    <circle fill="#000" cx="105" cy="25" r="5" />
+    <circle fill="#000" cx="115" cy="25" r="5" />
+    <circle fill="#000" cx="125" cy="25" r="5" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 5 20.25 Q 55 -2.8269230769230766 105 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 105 29.75 Q 55 52.82692307692308 5 29.75" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 15 20.25 Q 65 -2.8269230769230766 115 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 115 29.75 Q 65 52.82692307692308 15 29.75" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 25 20.25 Q 75 -2.8269230769230766 125 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 125 29.75 Q 75 52.82692307692308 25 29.75" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 15 20.25 Q 50 4.096153846153847 85 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 85 29.75 Q 50 45.90384615384615 15 29.75" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 45 20.25 Q 80 4.096153846153847 115 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 115 29.75 Q 80 45.90384615384615 45 29.75" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 55 20.25 Q 90 4.096153846153847 125 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 125 29.75 Q 90 45.90384615384615 55 29.75" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 25 20.25 Q 50 8.711538461538462 75 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 75 29.75 Q 50 41.28846153846154 25 29.75" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 35 20.25 Q 60 8.711538461538462 85 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 85 29.75 Q 60 41.28846153846154 35 29.75" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 45 20.25 Q 70 8.711538461538462 95 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 95 29.75 Q 70 41.28846153846154 45 29.75" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 35 20.25 Q 50 13.326923076923077 65 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 65 29.75 Q 50 36.67307692307692 35 29.75" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 45 20.25 Q 60 13.326923076923077 75 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 75 29.75 Q 60 36.67307692307692 45 29.75" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 55 20.25 Q 65 15.634615384615383 75 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 75 29.75 Q 65 34.36538461538461 55 29.75" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 75 20.25 Q 85 15.634615384615383 95 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 95 29.75 Q 85 34.36538461538461 75 29.75" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 105 20.25 Q 115 15.634615384615383 125 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 125 29.75 Q 115 34.36538461538461 105 29.75" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 5 20.25 Q 10 17.942307692307693 15 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 15 29.75 Q 10 32.05769230769231 5 29.75" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 25 20.25 Q 30 17.942307692307693 35 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 35 29.75 Q 30 32.05769230769231 25 29.75" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 55 20.25 Q 60 17.942307692307693 65 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 65 29.75 Q 60 32.05769230769231 55 29.75" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 85 20.25 Q 90 17.942307692307693 95 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 95 29.75 Q 90 32.05769230769231 85 29.75" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 15 20.25 Q 20 17.942307692307693 25 20.25" fill="none" stroke="#000" />
+    <path stroke-linecap="round" stroke-width="0.25" d="M 25 29.75 Q 20 32.05769230769231 15 29.75" fill="none" stroke="#000" />
 </svg>
