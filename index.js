@@ -5,72 +5,77 @@ const cycleSort = require('./cycleSort.js');
 const combSort = require('./combSort.js');
 const selectionSort = require('./selectionSort.js');
 const cocktailSort = require('./cocktailSort.js');
+const shellSort = require('./shellSort.js');
 
-const data = [
-    Math.floor(10000 * 0.5096),
-    Math.floor(10000 * 0.4939),
-    Math.floor(10000 * 0.4941),
-    Math.floor(10000 * 0.5052),
-    Math.floor(10000 * 0.5052),
-    Math.floor(10000 * 0.5052),
-    Math.floor(10000 * 0.4824),
-    Math.floor(10000 * 0.4825),
-    Math.floor(10000 * 0.4819),
-    Math.floor(10000 * 0.4828),
-    Math.floor(10000 * 0.4825),
-    Math.floor(10000 * 0.4827),
-    Math.floor(10000 * 0.4826),
-];
+/**
+ * The base data to sort
+ * @type number[]
+ */
+let data;
+/**
+ * The calculated minimum width of the svg
+ * @type number
+ */
+let min_width;
 
-function movement(value, from, to) {
-    return {
-        value,
-        from,
-        to,
-    };
-}
-
-function shellSort(data) {
-    let movements = []
-    let out = [];
-    let gaps = [6, 4, 1]
-    for (let gap of gaps) {
-        for (let i = gap; i < data.length; i += 1) {
-            let temp = data[i];
-            let j;
-            for (j = i; j >= gap && data[j - gap] > temp; j -= gap) {
-                let from = j - gap;
-                let value = data[from];
-                movements.push({
-                    value,
-                    from,
-                    to: j
-                });
-                data[j] = value;
-            }
-            movements.push({
-                value: temp,
-                from: i,
-                to: j,
-            });
-            data[j] = temp;
-          }
-    }
-    return {
-        movements,
-        sorted: out,
-        name: 'shellSort'
-    }
-}
-
+/**
+ * The height of the svg
+ * @type number
+ */
 const height = 50;
+/**
+ * The radius of each node
+ */
 const radius = 5;
-const min_width = radius * 2 * data.length;
+
+/**
+ * parse the provided cli args
+ * @param {string[]} args process.argv.slice(2)
+ * @returns number[]
+ */
+async function parse_args(args) {
+    switch (args.length) {
+        case 0: 
+            console.log('default args');
+            return [
+                Math.floor(10000 * 0.5096),
+                Math.floor(10000 * 0.4939),
+                Math.floor(10000 * 0.4941),
+                Math.floor(10000 * 0.5052),
+                Math.floor(10000 * 0.5052),
+                Math.floor(10000 * 0.5052),
+                Math.floor(10000 * 0.4824),
+                Math.floor(10000 * 0.4825),
+                Math.floor(10000 * 0.4819),
+                Math.floor(10000 * 0.4828),
+                Math.floor(10000 * 0.4825),
+                Math.floor(10000 * 0.4827),
+                Math.floor(10000 * 0.4826),
+            ];
+        case 1:
+            let n = +args[0]
+            if (Number.isNaN(n)) {
+                console.log('parsing json input')
+                let contents = await fs.readFile(args[0]);
+                return JSON.parse(contents);
+            }
+            console.log('single arg');
+            return [n];
+        default:
+            console.log('parsing args')
+            return args.map(parseFloat).filter(arg => !Number.isNaN(arg));
+    }
+}
+/**
+ * Build the node objects for this sorting pass
+ * @param {number} len The number of nodes to generate
+ * @returns {x: number, y_top: number, y_bot: number, html: string}[]
+ */
 function buildNodes(len) {
+    min_width = radius * 2 * data.length
     let nodes = [];
     for (let i = 0; i < len; i++) {
         let x = (radius * 2 * i)+radius;
-        console.log('x', i, x);
         nodes.push({
             x,
             y_top: ((height/2) - radius) + 0.25,
@@ -82,20 +87,27 @@ function buildNodes(len) {
     return nodes;
 }
 
+/**
+ * Render the results 
+ * @param {{from: number, to: number, value: number}} movements A list of movements required to sort `nodes`
+ * @param {{x: number, y_top: number, y_bot: number, html: string}[]} nodes Array of <circle> svg strings
+ * @returns string
+ */
 function render(movements, nodes) {
-    let svg = `<svg version="1.1"
+    let svg = `<svg
+    version="1.1"
     baseProfile="full"
-    xmlns="http://www.w3.org/2000/svg" width="${min_width}px" height="${height}px" viewBox="0 0 ${min_width} ${height}">\n`
+    xmlns="http://www.w3.org/2000/svg"
+    width="${min_width}px"
+    height="${height}px"
+    viewBox="0 0 ${min_width} ${height}"
+>\n`;
     let top = true;
     let dist = 30;
     for (let node of nodes) {
         svg += node.html;
     }
     for (let move of movements) {
-        if (move.from === move.to) {
-            dist += 5;
-            continue;
-        }
         let from = nodes[move.from];
         let to = nodes[move.to];
         let start_x = from.x;
@@ -110,10 +122,10 @@ function render(movements, nodes) {
         }
         if (top) {
             start_y = from.y_top;
-            mid_y = from.y_top - ((Math.abs(move.from - move.to) / 13) * dist);
+            mid_y = from.y_top - ((Math.abs(move.from - move.to) / data.length) * dist);
         } else {
             start_y = from.y_bot;
-            mid_y = from.y_bot + ((Math.abs(move.from - move.to) / 13) * dist);
+            mid_y = from.y_bot + ((Math.abs(move.from - move.to) / data.length) * dist);
         }
         svg += `    <path stroke-linecap="round" stroke-width="0.25" d="M ${start_x} ${start_y} Q ${mid_x} ${mid_y} ${end_x} ${start_y}" fill="none" stroke="#000" />\n`;
         top = !top;
@@ -122,18 +134,26 @@ function render(movements, nodes) {
 
 }
 
+/**
+ * Check the provided array is sorted
+ * @param {number[]} data The sorted array to test
+ * @param {string} name The name of the sorting method
+ */
 function assert_sorted(data, name) {
     let copy = [...data];
     copy.sort();
     for (let i = 0; i < data.length; i++) {
+        if (typeof(copy[i]) !== 'number') {
+            throw new Error(`Invalid copy, index ${i} is not a number`);
+        }
         if (copy[i] !== data[i]) {
-            throw new Error(`${name} Unsorted: ${data}`);
+            throw new Error(`${name} Unsorted:\n\tdata:\t${data}\n\tsorted:\t${copy}\n\tindex:\t${i}`);
         }
     }
 }
 
 /**
- * 
+ * Convert a camel case string into a title format string
  * @param {string} s 
  * @returns string
  */
@@ -151,6 +171,7 @@ function camel_to_spaced(s) {
 }
 
 async function main() {
+    data = await parse_args(process.argv.slice(2));
     const path = require('path');
     const fs = require('fs').promises;
     let nodes = buildNodes(data.length);
