@@ -71,8 +71,8 @@ function buildNodes(len) {
         let x = (radius * 2 * i);
         nodes.push({
             x,
-            y_top: ((height/2) - radius),
-            y_bot: ((height/2) + radius),
+            y_top: ((height/2) - radius) + 0.25,
+            y_bot: ((height/2) + radius) - 0.25,
             html: `    <circle fill="#000" cx="${x}" cy="${height/2}" r="${radius}" />\n`,
         });
 
@@ -113,7 +113,7 @@ function render(movements, nodes) {
             start_y = from.y_bot;
             mid_y = from.y_bot + ((Math.abs(move.from - move.to) / 13) * dist);
         }
-        svg += `    <path stroke-width="0.5" d="M ${start_x} ${start_y} Q ${mid_x} ${mid_y} ${end_x} ${start_y}" fill="none" stroke="#000" />\n`;
+        svg += `    <path stroke-linecap="round" stroke-width="0.5" d="M ${start_x} ${start_y} Q ${mid_x} ${mid_y} ${end_x} ${start_y}" fill="none" stroke="#000" />\n`;
         top = !top;
     }
     return svg + '</svg>'
