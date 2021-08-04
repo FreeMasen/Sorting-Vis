@@ -170,6 +170,10 @@ function camel_to_spaced(s) {
     return ret;
 }
 
+function spaced_to_camel(s) {
+    return s.replace(/\s/g, '-').toLowerCase()
+}
+
 async function main() {
     data = await parse_args(process.argv.slice(2));
     const path = require('path');
@@ -207,7 +211,7 @@ async function main() {
     <h1>Sorting Visualizations</h1>
     `;
     for (let img of images) {
-        html += `<div class="image">
+        html += `<div class="image" id="${spaced_to_camel(img.sort_name)}">
         <h2>${img.sort_name}</h2>
         <img src="./${img.file_name}" />
     </div>
